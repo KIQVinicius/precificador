@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Título do aplicativo
-st.title("Cálculo de Custo Final por Etapas do Processo")
+st.title("Cálculo de Custo")
 
 # Entrada para o número de etapas
 num_etapas = st.number_input("Quantas etapas o processo possui?", min_value=1, step=1, value=1)
